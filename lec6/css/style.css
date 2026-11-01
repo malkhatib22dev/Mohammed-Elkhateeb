@@ -3,6 +3,11 @@
     color: #500071;
 }
 
+h1 {
+    text-align: center;
+}
+
+
 .p {
     font-size: large;
     color: #500071;
@@ -16,12 +21,14 @@
 }
 
 .images .img1 {
+
     width: 500px;
 
 }
 
 .images .img2 {
-    width: 500px;
+
+    width: 550px;
 
 }
 
