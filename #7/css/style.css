@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.hero {
+    background: linear-gradient(to right,
+            pink 0%,
+            purple 50%,
+            green 100%);
+
+    color: white;
+    min-height: 100px;
+    max-height: 200px;
+    overflow-y: auto;
+
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title span {
+    background: linear-gradient(to right,
+            blue,
+            yellow);
+
+
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}

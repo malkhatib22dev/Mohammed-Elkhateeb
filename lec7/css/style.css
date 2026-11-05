@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+}
+
+/* h3 {
+    color: aqua;
+    font-size: 40px;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+#new {
+    color: rgb(58, 224, 12);
+}
+
+.item {
+    color: blue;
+} */
+
+/* 
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+
+#box1 {
+
+    background-color: red;
+}
+
+#box2 {
+
+    background-color: rgb(0, 34, 255);
+}
+
+#box3 {
+
+    background-color: rgb(15, 210, 8);
+}
+ */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    /* margin: 20px;  */
+    /* all direction  كل الاتجاهات*/
+
+
+
+    /*    margin: 20px 40px;
+     (top , bottom) ( left , right) */
+
+
+
+    /*   margin: 20px 40px 60px;
+     (top)  (left, right) (bottom) */
+
+
+
+    /*   margin: 20px 40px 60px 80px;
+     (top) (right) (bottom) (left) */
+
+
+
+
+    margin-bottom: 50px;
+
+    /* اكتر قيمتين مستخدمات في
+     margin
+      الثانية والخامسة */
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
