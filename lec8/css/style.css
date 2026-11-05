@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: e-Kalem-Tezyinat2;
+    src: url(../fonts/e-Kalem-Tezyinat2.ttf);
+}
+
+@font-face {
+    font-family: Assistant-VariableFont_wght;
+    src: url(../fonts/Assistant-VariableFont_wght.ttf);
+}
+
+h1 {
+
+    font-family: e-Kalem-Tezyinat2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+p {
+
+    font-family: e-Kalem-Tezyinat2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.he {
+    font-family: Assistant-VariableFont_wght;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
