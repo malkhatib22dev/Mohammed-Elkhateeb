@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* ازالة الهوامش*/
+    padding: 0;
+    /* ازالة المسافات الداخلية*/
+    font-family: Arial, sans-serif;
+    /*تحديد نوع الخط */
+    background-color: #111111;
+    /*تغيير لون الخلفية */
+    color: white;
+    /*تحديد لون النص  */
+    line-height: 1.7;
+    /*تحديد المسافة بين اسطر النص  */
+}
+
+.mainheader {
+    background-color: black;
+    /* تغيير لون الخلفية */
+    text-align: center;
+    /* يجعل النص في المنتصف افقيا*/
+    padding: 25px 20px;
+    /* يعطي مسافة داخلية */
+    border-bottom: 3px solid #dc2626;
+    /*يرسم خط احمر اسفل الهيدر بسماكة 3 بكسل  */
+
+}
+
+.mainheader h1 {
+    color: #dc2626;
+    /* لون النص*/
+    font-size: 40px;
+    /*  */
+    margin: 0 0 20px;
+    /* */
+    letter-spacing: 3px;
+    /* */
+}
+
+nav {
+    display: flex;
+    /* يجعل العناصر تتوزع افتراضيا بواسطة flex */
+    justify-content: center;
+    /*يوسط العناصر على المحور الرئيسي  */
+    align-items: center;
+    /* يوسط العناصر على المحمور الاخر*/
+    flex-wrap: wrap;
+    /*يسمح للعناصر بالانتقال لسطر جديد  */
+    gap: 15px;
+    /* يترك مسافة 15 بكسل بين العناصر*/
+}
+
+nav a {
+    color: white;
+    /* لون النص*/
+    text-decoration: none;
+    /* ازالة الخط تحت الرابط*/
+    font-size: 16px;
+    /* */
+    padding: 10px 15px;
+    /* المسافة الداخلية*/
+    border-radius: 5px;
+    /* تدوير زوايا الرابط*/
+    transition: 0.3s;
+    /* تجعل الانتقال بين التنسيقات تدريجيا خلال 0.3 ثانية*/
+}
+
+nav a:hover {
+    /* يعني تطبيق التنسيق عندما يمر مؤشر الماوس فوق العنصر*/
+    background-color: #dc2626;
+    color: white;
+}
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: #1e1e1e;
+    /* */
+    margin: 30px 0;
+    /* مسافة خارجية اعلى واسفل القسم*/
+    padding: 35px;
+    /* مسافة داخلية من الجهات الاربع*/
+    border-radius: 12px;
+    /* يجعل الزوايا دائرية قليلا*/
+    border: 1px solid #333;
+    /* يضيف اطار رمادي رفيعا*/
+    text-align: center;
+}
+
+section h2 {
+    color: #dc2626;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+section h3 {
+    color: #dc2626;
+    font-size: 22px;
+}
+
+section p {
+    color: #dddddd;
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+section img {
+    max-width: 100%;
+    /* ابعاد الصورة*/
+    height: auto;
+    border-radius: 12px;
+    margin: 15px 0;
+}
+
+section a {
+    display: inline-block;
+    background-color: #dc2626;
+    color: white;
+    padding: 12px 22px;
+    margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+section a:hover {
+    background-color: #b91c1c;
+    transform: translateY(-3px);
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+section li {
+    background-color: #292929;
+    margin: 10px auto;
+    padding: 12px;
+    border-left: 4px solid #dc2626;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+section div {
+    background-color: #292929;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+section div img {
+    width: 200px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    /* تملأ الصورة المساحة المحددة دون تشويش ابعادها */
+    border-radius: 50%;
+    /* يجعل الصورة المربعة الى شكل دائري*/
+    border: 3px solid #dc2626;
+    /* يضيف خط احمر*/
+}
+
+iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 35px 20px;
+    border-top: 3px solid #dc2626;
+}
+
+footer h2 {
+    color: #dc2626;
+    font-size: 28px;
+}
+
+footer h3 {
+    color: #dc2626;
+
+}
+
+footer p {
+    color: #cccccc;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #dc2626;
+}
+
+@media (max-width: 600px) {
+
+    /*  عندما يكون عرض التصفح600 بكسل او اقل استحدم مسافات داخلية اصغر للاقسام وهذا يساعد على الظهور بشكل افضل على الهواتف*/
+    .mainheader h1 {
+        font-size: 28px;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 20px 15px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
