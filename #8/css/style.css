@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: white;
+
+}
+
+.container {
+    width: 80%;
+    margin: 10% auto 0;
+    text-align: center;
+
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+.container h2 {
+    font-size: 40px;
+    border-bottom: 3px solid #dc2626;
+
+
+}
+
+
+.container p {
+    font-size: 30px;
+}
+
+.container img {
+    width: 200px;
+
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #dc2626;
+}
